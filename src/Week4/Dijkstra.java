@@ -5,7 +5,7 @@ public class Dijkstra {
 
     public static void dijkstra(double[][] graph, int start) {
         int V = graph.length;
-        double[] dist = new double[V]; // List storing distince from v 0 to other node
+        double[] dist = new double[V]; // List storing distince from v 0 to other
         boolean[] visited = new boolean[V]; // List storing the v had marked
 
         for (int i = 0; i < V; i++) {
